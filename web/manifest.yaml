@@ -145,7 +145,7 @@ spec:
       containers:
       - name: web
         imagePullPolicy: Always
-        image: rahuldesharaj/web:k8
+        image: techworldwithsiva/web:k8
         volumeMounts:
         - name: nginx-config
           mountPath: /etc/nginx/nginx.conf
@@ -174,3 +174,4 @@ spec:
     port: 80
     # pod port
     targetPort: 80
+    
