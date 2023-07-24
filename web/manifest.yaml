@@ -23,7 +23,8 @@ spec:
     spec:
       containers:
       - name: web
-        image: techworldwithsiva/web:k8
+        imagespullpolicy: Always
+        image: rahuldesharaj/web:k8
 ---
 apiVersion: v1
 kind: Service
