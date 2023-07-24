@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: web
-        imagespullpolicy: Always
+        imagePullPolicy: Always
         image: rahuldesharaj/web:k8
 ---
 apiVersion: v1
